@@ -1,0 +1,56 @@
+.select {
+    width: 90%;
+
+    ul {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        cursor: pointer;
+
+        li {
+            width: 100%;
+            border: 1px solid rgb(18, 70, 90);
+            padding: 10px 0;
+
+            &:hover {
+                background-color: rgb(68, 148, 253);
+                color: white;
+                cursor: pointer;
+            
+                
+            }
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-between;
+
+        .prev {
+            text-decoration: none;
+            text-align: center;
+            background-color: rgb(113, 119, 126);
+            color: white;
+            border: 1px solid grey;
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+         
+            font-size: 18px;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+         }
+    }
+}
+
+.activeItem {
+    background-color: rgb(24, 119, 242);
+    color: white;
+}

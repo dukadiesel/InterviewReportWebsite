@@ -1,0 +1,82 @@
+.CandidateContainer{
+  margin-top: 40px;
+}
+.CandidateWrapper {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.Header {
+  background-color: white;
+  color: rgb(24, 119, 242);
+  padding: 25px 10px;
+  font-weight: 1000;
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 0.9px #699399;
+
+  .Logo {
+    font-size: 30px;
+   
+  }
+
+  .login-btn {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: 1px solid grey;
+    padding: 7px 51px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.CandidatesSearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+
+  h2 {
+    margin: 0;
+    color:rgb(24, 119, 242);
+    font-weight: 700;
+  }
+}
+
+
+
+@media only screen and (max-width: 970px) {
+  .CandidateWrapper {
+    justify-content: center;
+  }
+ 
+}
+
+@media only screen and (max-width: 700px) {
+
+   .CandidatesSearch {
+    justify-content: center;
+  }
+  .CandidatesSearch h2 {
+    margin-bottom: 20px;
+  }
+ 
+}
+
